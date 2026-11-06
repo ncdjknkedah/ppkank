@@ -73,6 +73,7 @@ header.nav{position:sticky;top:0;z-index:50;background:rgba(251,249,243,.92);bac
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:-50px;position:relative;z-index:2}
 .stat{background:#fff;border-radius:var(--radius);padding:22px;box-shadow:var(--shadow);border:1px solid var(--line)}
 .stat b{display:block;font-family:var(--serif);font-size:2rem;color:var(--green-700);line-height:1.1}
+.stat-link{text-decoration:none;transition:border-color .15s,transform .15s}.stat-link:hover{border-color:var(--gold-500);transform:translateY(-2px)}
 .stat span{font-size:.88rem;color:var(--muted)}
 
 /* ABOUT */
@@ -229,7 +230,7 @@ footer{background:var(--green-900);color:rgba(255,255,255,.75);padding:36px 0;fo
   <div class="stat"><b id="statAhli">40+</b><span>Ahli pakar berdaftar</span></div>
   <div class="stat"><b>2023</b><span>Tahun penubuhan</span></div>
   <div class="stat"><b>KIHC</b><span>Persidangan kesihatan antarabangsa sulung, 2025</span></div>
-  <div class="stat"><b>2027</b><span>2nd Kedah International Health Conference</span></div>
+  <a class="stat stat-link" href="https://ncdjknkedah.github.io/KIHC2027/" target="_blank" rel="noopener"><b>2027</b><span>2nd Kedah International Health Conference →</span></a>
 </div>
 
 <section id="tentang">
